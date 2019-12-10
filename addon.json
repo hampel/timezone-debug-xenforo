@@ -1,0 +1,17 @@
+{
+    "legacy_addon_id": "",
+    "title": "Time Zone Debug",
+    "description": "Debug Time Zone display for your forum",
+    "version_id": 1000011,
+    "version_string": "1.0.0 Alpha 1",
+    "dev": "Simon Hampel",
+    "dev_url": "https://bitbucket.org/hampel/",
+    "faq_url": "",
+    "support_url": "https://bitbucket.org/hampel/timezone-debug-xenforo/issues",
+    "extra_urls": {
+        "Git Repository": "https://bitbucket.org/hampel/timezone-debug-xenforo/",
+        "Twitter": "https://twitter.com/SimonHampel"
+    },
+    "require": [],
+    "icon": "fa-clock"
+}
