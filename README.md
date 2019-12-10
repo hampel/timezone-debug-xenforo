@@ -5,7 +5,7 @@ This XenForo 2.x addon provides a simple admin UI for debugging timezone issues 
 
 After installation, look for the "Time Zone Debug" option in the Tools menu of the admin UI.
 
-More information here: [Time Zone Debug](https://xenforo.com/community/resources/)
+More information here: [Time Zone Debug](https://xenforo.com/community/resources/time-zone-debug.7528/)
 (XenForo Addon Resource)
 
 By [Simon Hampel](https://twitter.com/SimonHampel).
