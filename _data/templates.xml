@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="tools_time_zone_debug" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[<xf:title>{{ phrase('test_timezone') }}</xf:title>
+<xf:description>{{ phrase('timezone_debug_description') }}</xf:description>
+
+<xf:form action="{{ link('tools/time-zone-debug') }}" class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:formrow label="{{ phrase('timezonedebug_xf_timestamp') }}">
+				{{ $timestamp }}
+			</xf:formrow>
+			
+			<xf:formrow label="{{ phrase('timezonedebug_utc_time') }}">
+				{{ date($dateTimeUTC, 'r') }}
+			</xf:formrow>		
+			
+			<xf:formrow label="{{ phrase('timezonedebug_your_local_time') }}">
+				{{ date($timestamp, 'r') }}
+			</xf:formrow>
+			
+			<xf:formrow label="{{ phrase('timezonedebug_xf_visitor_timezone') }}" 
+						hint="{{ phrase('timezonedebug_xf_visitor_timezone_hint', {'link': link_type('public', 'account/preferences')})}}">
+				{{ $visitorTimeZone }}
+			</xf:formrow>
+			
+			<xf:formrow label="{{ phrase('timezonedebug_guest_time') }}">
+				{{ date($guestTime, 'r') }}
+			</xf:formrow>				
+			
+			<xf:formrow label="{{ phrase('timezonedebug_xf_guest_timezone') }}" 
+						hint="{{ phrase('timezonedebug_xf_guest_timezone_hint', {'link': link('options/groups/basicBoard/') . '#guestTimeZone'}) }}">
+				{{ $guestTimeZone }}
+			</xf:formrow>					
+		</div>
+		<xf:submitrow submit="{{ phrase('timezonedebug_refresh') }}" />
+	</div>
+</xf:form>]]></template>
+</templates>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="admin_navigation.timeZoneDebug" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Time Zone Debug]]></phrase>
+  <phrase title="test_timezone" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Time Zone Debug]]></phrase>
+  <phrase title="timezone_debug_description" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Use this tool to diagnose time zone configuration issues on your server]]></phrase>
+  <phrase title="timezonedebug_guest_time" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Time guests will see]]></phrase>
+  <phrase title="timezonedebug_refresh" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Refresh]]></phrase>
+  <phrase title="timezonedebug_timezone_display" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[[{tz}] &raquo; {desc}]]></phrase>
+  <phrase title="timezonedebug_utc_time" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[UTC Time]]></phrase>
+  <phrase title="timezonedebug_xf_guest_timezone" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Guest time zone]]></phrase>
+  <phrase title="timezonedebug_xf_guest_timezone_hint" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[<a href="{link}">Guest preferences</a>]]></phrase>
+  <phrase title="timezonedebug_xf_timestamp" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Current Unix timestamp]]></phrase>
+  <phrase title="timezonedebug_xf_visitor_timezone" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Your time zone]]></phrase>
+  <phrase title="timezonedebug_xf_visitor_timezone_hint" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[<a href="{link}">User preferences</a>]]></phrase>
+  <phrase title="timezonedebug_your_local_time" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Your local time]]></phrase>
+</phrases>
