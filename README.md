@@ -8,4 +8,4 @@ After installation, look for the "Time Zone Debug" option in the Tools menu of t
 More information here: [Time Zone Debug](https://xenforo.com/community/resources/time-zone-debug.7528/)
 (XenForo Addon Resource)
 
-By [Simon Hampel](https://twitter.com/SimonHampel).
+By [Simon Hampel](https://xenforo.com/community/members/sim.4264/).
